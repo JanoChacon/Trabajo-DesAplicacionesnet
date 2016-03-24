@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+#contenedor{
+width:1020px;
+height:767px;
+border-style:groove;
+margin:auto;
+}
+/********************CABECERA************************/
+#cabecera{
+/**/
+height:100px;
+width:1014px;
+position:relative; /**/
+border-style:groove; /**/
+background: url(Imagenes/city.png) repeat-x; 
+}
+#cabecera ul li {
+display: inline; 
+padding: 2px 17px;
+margin:5px; 
+background-color:#003; 
+} 
+#cabecera ul li:hover {
+background-color:#CCCCCC; 
+cursor: pointer; /
+}
+#cabecera ul {
+border-bottom-width: 2px;
+border-bottom-style: solid;
+border-bottom-color: #003;
+}
+h1.tituloEncab{
+color:#FFF;
+text-align:center;
+}
+li.boton{
+color:#FFF; 
+}
+/*************LATERAL IZQUIERDO*******************************/
+#latIzq{
+background-color:#CCC;
+width: 200px;
+margin-top:2px;
+margin-bottom:3px;
+height:580px;
+position:relative;
+float:left;
+border-style:groove;
+}
+#latIzq  ul {
+list-style: none;
+padding: 0;
+}
+#latIzq li a {
+height: 32px;
+voice-family: "\"}\""; 
+voice-family: inherit;
+height: 24px;
+text-decoration: none;
+}
+#latIzq li a:link, #latIzq li a:visited {
+display: block;
+background:  url(Imagenes/opm.gif);
+padding: 8px 0 0 10px;
+}
+#latIzq li a:hover {
+background:  url(Imagenes/opm.gif) 0 -32px;
+padding: 8px 0 0 10px;
+}
+/*++++++++++++CUERPO++++++++++++++++++++++++++++++++++++*/
+#cuerpo{
+background-color:#CCC;
+width: 756px;
+height:530px;
+float:right;
+position:relative;
+margin-top:2px;
+margin-bottom:3px;
+border-style:groove;
+padding:20px
+border-top-width: 10px;
+border-right-width: 1em;/*1 em = 16px; */
+border-bottom-width: thick; /*thick = 6px; */
+border-left-width: thin; /*thin = 2px; */
+border-color: #CC0000;
+text-align:justify;
+}
+.imagenCuerpo{
+width:171px;
+height:152px;
+border:1;
+float:left;
+}
+/*+++++++++++++++++PIE+++++++++++++++++++++++++++++*/
+#pie{
+margin:auto;
+height:64px;
+width:1014px;
+clear:both;
+border-style:groove;
+background-color:#CCC;
+}
+#pie p {
+text-align:center;
+}
+.imagenPie{
+float:left;
+margin-top:4px;
+margin-left:4px;
+}
+/*+++++++++++++++++++TIPOGRAFIAS++++++++++++++++++++++++++++++*/
+h1,p{
+color:#FFF;
+}
+li.boton{
+color:#03F;
+}
+#listLateral{
+color:#060;
+}
+/*FUENTES*/
+#cuerpo{
+font-family: Arial, Helvetica, sans-serif;
+}
+#latIzq{
+font-family: "Times New Roman", Times, serif;
+font-weight: bold;
+font-style:italic;
+}

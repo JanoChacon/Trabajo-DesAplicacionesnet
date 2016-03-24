@@ -1,0 +1,36 @@
+@charset 
+“utf-8”;
+/* CSS Document */
+#contenedor{
+	width:1020px;
+	height:740px;	
+}
+#cabecera{
+	height:100px;
+	width:1020px;
+	position:relative;
+	background-color:#990;
+}
+	h1.tituloEncab{
+	color:#F00;
+}
+#latIzq{
+	background-color:#900;
+	width: 200px;
+	height:600px;
+	position:relative;
+	float:left;
+}
+#cuerpo{
+	background-color:#33F;
+	width: 820px;
+	height:600px;
+	float:right;
+	position:relative;
+}
+#pie{
+	height:40px;
+	width:1020px;
+	clear:both;
+	background-color:#0C3;
+}
